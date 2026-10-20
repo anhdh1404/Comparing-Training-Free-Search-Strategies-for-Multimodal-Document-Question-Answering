@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+kaggle.json
+secrets.json
+*token*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights and caches
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.keras
+.cache/
+huggingface_cache/
+
+# Large datasets and generated indexes
+data/
+datasets/
+*.faiss
+*.index
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
